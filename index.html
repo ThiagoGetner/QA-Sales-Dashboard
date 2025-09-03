@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel de Vendas e Estoque</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Painel de Vendas e Estoque</h1>
+  </header>
+
+  <main>
+    <section class="dashboard">
+      <div class="card">
+        <h2>Vendas</h2>
+        <canvas id="salesChart"></canvas>
+      </div>
+      <div class="card">
+        <h2>Estoque</h2>
+        <canvas id="stockChart"></canvas>
+      </div>
+    </section>
+
+    <section class="insights">
+      <h2>Insights de IA (simulados)</h2>
+      <ul id="insightsList"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Projeto QA - Dashboard de Vendas e Estoque</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
